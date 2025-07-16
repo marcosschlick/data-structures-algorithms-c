@@ -19,7 +19,7 @@ struct Node* insert(struct Node *root, int data) {
 	} else {
 		struct Node *current = root;
 		struct Node *parent = NULL;
-		while (true) {
+		while (1) {
 			parent = current;
 			if (data < parent -> data) {
 				current = current -> left;
